@@ -1,20 +1,21 @@
-body {
-  background: #1D8DC2;
-  margin: 0 auto;
+* {
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
-  line-height: 1.71429;
 }
 
-html,
 body {
-  height: 100%;
+	background: #00c0e8;
+	font-family: 'Open Sans', sans-serif;
 }
 
-nav {
-  background-color: #147AA7;
-  color: white;
-  padding: 0;
+#contenedor {
+  height: 100px;
+  background: #1A8EC2;
+}
 
+#tableros {
+  margin-left: 20px;
 }
 
 .tableros > a {
@@ -32,6 +33,10 @@ padding: 10px 8px;
  width: 10%;
 }
 
+#tableros {
+  display: inherit;
+}
+
 input[type="text"] {
   border: none;
   background-color: #66A3C1;
@@ -45,21 +50,11 @@ input[type="text"] {
   float: left;
   }
 
-  .fa-search {
-    background: #66A3C1;
-    margin-top: 10px;
-    padding: 10px 8px;
-    border-radius: 4px;
-    padding: inherit;
-    margin-left: 20px;
-    display: inline block;
-    float: left;
-}
 
 #trello {
   text-align: center;
   margin: 0 auto;
-  padding: 0;
+  padding-top: 20px;
   height: 20px;
 }
 
@@ -75,9 +70,10 @@ input[type="text"] {
   text-align: center;
 }
 
-#icons {
+.icons-container {
   margin-right: 20px;
-  margin-top: 5px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .fa-plus, .fa-clock-o, .fa-bell-o  {
@@ -101,55 +97,124 @@ input[type="text"] {
   float: right;
 }
 
-.menu {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+.content-box-blue {
+float: left;
+background-color: white;
+border: 1px solid #afcde3;
+height: 42px;
+width: 200px;
+margin-top: -42px;
+margin-left: 10px;
+opacity: .5;
 
 }
 
-  #retos {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    margin-left: 15px;
+h3{
+  color: white;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+/*Estilos al main*/
+main {
+  padding: 57px 8px 10px;
+}
+
+/*Estilos a seccion correpondiente al formulario*/
+.add-list {
+  background: #E2E4E6;
+	height: 100%;
+  margin: 10px  5px;
+  width: 270px;
+	vertical-align: top;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.list {
+  padding: 10px 14px;
+  background-color: #0067A3;
+  width: 100%;
+  text-align: left;
+}
+
+.list:hover{
+	background-color:#005485;
+}
+
+.form {
+	background-color: #E2E4E6;
+  display: inline-block;
+	padding: 6px;
+	border-radius: 5px;
+	vertical-align: top;
+  margin-right: 21px;
+	width: 270px;
+}
+
+.button {
+  margin-top: 7px;
+  background-color: #5EB64B;
+  padding: 6px 20px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.button:hover {
+	background-color: #549F3D;
+}
+
+.list, .button {
+	border: none;
+	color: white;
+	font-size: 1em;
+	border-radius: 5px;
+}
+
+.none{
+	display: none;
+}
+
+.form input{
+  box-shadow: rgba(0,0,0,.15) 0px 1px 8px inset;
+  background: rgba(0,0,0,.05);
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  font-size: 1em;
+  display: block;
+  width: 240px;
+}
+
+.linkTask{
+  margin: 10px 10px;
+}
+
+.newtask {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  resize: none;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.bt {
+  padding: 8px 12px;
+  font-weight: 700;
+}
+
+.bt-1 {
+  padding: 8px 12px;
+  font-weight: 700;
+  margin: 20px 10px;
+  background: #FFFFFF;
+  margin: 8px;
+  border-radius: 5px;
+  font-weight: 500;
   }
 
-#content-list {
-  background: #177DA9;
-  margin-top: 10px;
-  padding: 10px 8px;
-  border-radius: 4px;
-  padding: inherit;
-  margin-left: 20px;
-  display: inline block;
-  float: left;
-}
-
-#add-list1 {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-}
-
-#form {
-  background: white;
-}
-
-#button-save {
-  background-color:#6CC05A;
-  padding: 10px 20px;
-  border-radius: 4px;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-}
-
-
-
-
-  /*main > h3 {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 30px;
-    margin-left: 15px;
+  .second {
+    margin-left: 8px;
   }

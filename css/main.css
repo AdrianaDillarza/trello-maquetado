@@ -1,0 +1,155 @@
+body {
+  background: #1D8DC2;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 1.71429;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+nav {
+  background-color: #147AA7;
+  color: white;
+  padding: 0;
+
+}
+
+.tableros > a {
+ border: none;
+ margin-left: 20px;
+ background-color: #66A3C1;
+ border-radius: 4px;
+ color: white;
+ display: inline;
+ font-family: 'Roboto', sans-serif;
+ margin: 0 auto;
+ height: 100px;
+padding: 10px 8px;
+ text-decoration: none;
+ width: 10%;
+}
+
+input[type="text"] {
+  border: none;
+  background-color: #66A3C1;
+  border-radius: 4px;
+  display: inline block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 8px;
+  text-decoration: none;
+  width: 10%;
+  float: left;
+  }
+
+  .fa-search {
+    background: #66A3C1;
+    margin-top: 10px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    padding: inherit;
+    margin-left: 20px;
+    display: inline block;
+    float: left;
+}
+
+#trello {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  height: 20px;
+}
+
+.trello {
+  font-family: 'Damion', cursive;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.fa-trello {
+  color: white;
+  text-align: center;
+}
+
+#icons {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.fa-plus, .fa-clock-o, .fa-bell-o  {
+  background: #66A3C1;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 8px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 20px;
+  display: inline-block;
+  float: right;
+  }
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  float: right;
+}
+
+.menu {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+}
+
+  #retos {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+
+#content-list {
+  background: #177DA9;
+  margin-top: 10px;
+  padding: 10px 8px;
+  border-radius: 4px;
+  padding: inherit;
+  margin-left: 20px;
+  display: inline block;
+  float: left;
+}
+
+#add-list1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+#form {
+  background: white;
+}
+
+#button-save {
+  background-color:#6CC05A;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+
+
+
+  /*main > h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+  }

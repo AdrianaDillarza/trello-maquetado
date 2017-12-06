@@ -8,6 +8,7 @@ body {
 	background: #00c0e8;
 	font-family: 'Open Sans', sans-serif;
 }
+/* barra superior*/
 
 #contenedor {
   height: 100px;
@@ -100,12 +101,12 @@ h3{
   margin-left: 20px;
 }
 
-/*Estilos al main*/
+/*Estilos del main*/
 main {
   padding: 57px 8px 10px;
 }
 
-/*Estilos a seccion correpondiente al formulario*/
+/*Estilos correpondiente al formulario*/
 .form {
     display: inline-block;
     background: #fff;
@@ -144,101 +145,96 @@ main {
     background-color: rgba(25, 27, 25, 0.5);
 }
 
-.add-list {
-  background: #E2E4E6;
-	height: 100%;
-  margin: 10px  5px;
-  width: 270px;
-	vertical-align: top;
-  display: inline-block;
-  border-radius: 5px;
+
+.listDiv {
+    width: 290px;
+    background-color: #e2e4e6;
+    border-radius: 3px;
+    margin: 10px;
+    margin-right: 0px;
+    float: left;
 }
 
-.list {
-  padding: 10px 14px;
-  background-color: #0067A3;
-  width: 100%;
-  text-align: left;
+.nameActivity {
+    width: 260px;
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid #959595;
+    margin: 5px;
+    background-color: #bec1c4;
+    padding: 10px;
+    box-shadow: inset 0 1px 8px rgba(0, 0, 0, .15);
+    float: left;
 }
 
-.list:hover{
-	background-color:#005485;
+.btnSave {
+    width: 82px;
+    height: 32px;
+    background-color: #5aac44;
+    margin: 5px 10px;
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
 }
 
-.form {
-	background-color: #E2E4E6;
-  display: inline-block;
-	padding: 6px;
-	border-radius: 5px;
-	vertical-align: top;
-  margin-right: 21px;
-	width: 270px;
+.btnSave:hover {
+    background: #4d9439;
 }
 
-.button {
-  margin-top: 7px;
-  background-color: #5EB64B;
-  padding: 6px 20px;
-  border-radius: 2px;
-  font-weight: bold;
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 9px;
 }
 
-.button:hover {
-	background-color: #549F3D;
+.activity {
+    padding: 10px;
+    font-size: 14px;
+    color: #90989d;
 }
 
-.list, .button {
-	border: none;
-	color: white;
-	font-size: 1em;
-	border-radius: 5px;
+.activity:hover {
+    background-color: #cdd2d4;
+    width: inherit;
+    text-decoration: underline #4d4d4d;
+    color: #6a6b6b;
 }
 
-.none{
-	display: none;
+.formActivity {
+    width: 200px;
 }
 
-.form input{
-  box-shadow: rgba(0,0,0,.15) 0px 1px 8px inset;
-  background: rgba(0,0,0,.05);
-  padding: 10px 10px;
-  border-radius: 5px;
-  border: 1px solid #aaa;
-  font-size: 1em;
-  display: block;
-  width: 240px;
+.saveActivity {
+    width: 76px;
+    height: 30px;
+    background-color: #5aac44;
+    margin: 0 3px 7px 7px;
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
 }
 
-.linkTask{
-  margin: 10px 10px;
+.saveActivity:hover {
+    background: #4d9439;
 }
 
-.newtask {
-  display: block;
-  margin: 0 auto;
-  width: 250px;
-  resize: none;
-  height: 40px;
-  border-radius: 5px;
-  border: none;
+.activity{
+    background-color: white;
+    width: 250px;
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #4d4d4d;
 }
 
-.bt {
-  padding: 8px 12px;
-  font-weight: 700;
+.activity:hover {
+    background-color: #d8dadb;
+    width: 230px;
 }
-
-.bt-1 {
-  padding: 8px 12px;
-  font-weight: 700;
-  margin: 20px 10px;
-  background: #FFFFFF;
-  margin: 8px;
-  border-radius: 5px;
-  font-weight: 500;
-  }
-
-  .second {
-    margin-left: 8px;
-  }
-

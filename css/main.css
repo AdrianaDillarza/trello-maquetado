@@ -143,3 +143,102 @@ main {
 #list:hover {
     background-color: rgba(25, 27, 25, 0.5);
 }
+
+.add-list {
+  background: #E2E4E6;
+	height: 100%;
+  margin: 10px  5px;
+  width: 270px;
+	vertical-align: top;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.list {
+  padding: 10px 14px;
+  background-color: #0067A3;
+  width: 100%;
+  text-align: left;
+}
+
+.list:hover{
+	background-color:#005485;
+}
+
+.form {
+	background-color: #E2E4E6;
+  display: inline-block;
+	padding: 6px;
+	border-radius: 5px;
+	vertical-align: top;
+  margin-right: 21px;
+	width: 270px;
+}
+
+.button {
+  margin-top: 7px;
+  background-color: #5EB64B;
+  padding: 6px 20px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.button:hover {
+	background-color: #549F3D;
+}
+
+.list, .button {
+	border: none;
+	color: white;
+	font-size: 1em;
+	border-radius: 5px;
+}
+
+.none{
+	display: none;
+}
+
+.form input{
+  box-shadow: rgba(0,0,0,.15) 0px 1px 8px inset;
+  background: rgba(0,0,0,.05);
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  font-size: 1em;
+  display: block;
+  width: 240px;
+}
+
+.linkTask{
+  margin: 10px 10px;
+}
+
+.newtask {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  resize: none;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.bt {
+  padding: 8px 12px;
+  font-weight: 700;
+}
+
+.bt-1 {
+  padding: 8px 12px;
+  font-weight: 700;
+  margin: 20px 10px;
+  background: #FFFFFF;
+  margin: 8px;
+  border-radius: 5px;
+  font-weight: 500;
+  }
+
+  .second {
+    margin-left: 8px;
+  }
+

@@ -143,3 +143,96 @@ main {
 #list:hover {
     background-color: rgba(25, 27, 25, 0.5);
 }
+
+.listDiv {
+    width: 290px;
+    background-color: #e2e4e6;
+    border-radius: 3px;
+    margin: 10px;
+    margin-right: 0px;
+    float: left;
+}
+
+.nameActivity {
+    width: 260px;
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid #959595;
+    margin: 5px;
+    background-color: #bec1c4;
+    padding: 10px;
+    box-shadow: inset 0 1px 8px rgba(0, 0, 0, .15);
+    float: left;
+}
+
+.btnSave {
+    width: 82px;
+    height: 32px;
+    background-color: #5aac44;
+    margin: 5px 10px;
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btnSave:hover {
+    background: #4d9439;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 9px;
+}
+
+.activity {
+    padding: 10px;
+    font-size: 14px;
+    color: #90989d;
+}
+
+.activity:hover {
+    background-color: #cdd2d4;
+    width: inherit;
+    text-decoration: underline #4d4d4d;
+    color: #6a6b6b;
+}
+
+.formActivity {
+    width: 200px;
+}
+
+.saveActivity {
+    width: 76px;
+    height: 30px;
+    background-color: #5aac44;
+    margin: 0 3px 7px 7px;
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.saveActivity:hover {
+    background: #4d9439;
+}
+
+.activity{
+    background-color: white;
+    width: 250px;
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.activity:hover {
+    background-color: #d8dadb;
+    width: 230px;
+}

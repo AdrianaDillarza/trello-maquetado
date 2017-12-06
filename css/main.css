@@ -100,12 +100,12 @@ h3{
   margin-left: 20px;
 }
 
-/*Estilos al main*/
+/*Estilos del main*/
 main {
   padding: 57px 8px 10px;
 }
 
-/*Estilos a seccion correpondiente al formulario*/
+/*Estilos correpondiente al formulario*/
 .form {
     display: inline-block;
     background: #fff;

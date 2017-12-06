@@ -28,7 +28,7 @@ body {
  font-family: 'Roboto', sans-serif;
  margin: 0 auto;
  height: 100px;
-padding: 10px 8px;
+ padding: 10px 8px;
  text-decoration: none;
  width: 10%;
 }
@@ -36,20 +36,6 @@ padding: 10px 8px;
 #tableros {
   display: inherit;
 }
-
-input[type="text"] {
-  border: none;
-  background-color: #66A3C1;
-  border-radius: 4px;
-  display: inline block;
-  margin: 0 auto;
-  margin-top: 10px;
-  padding: 10px 8px;
-  text-decoration: none;
-  width: 10%;
-  float: left;
-  }
-
 
 #trello {
   text-align: center;
@@ -106,7 +92,6 @@ width: 200px;
 margin-top: -42px;
 margin-left: 10px;
 opacity: .5;
-
 }
 
 h3{
@@ -121,6 +106,44 @@ main {
 }
 
 /*Estilos a seccion correpondiente al formulario*/
+.form {
+    display: inline-block;
+    background: #fff;
+    width: 280px;
+    height: 110px;
+    background-color: #e2e4e6;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.form input{
+    box-shadow: rgba(0,0,0,.15) 0px 1px 8px inset;
+    background: rgba(0,0,0,.05);
+    margin: 10px  10px ;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: 1em;
+    display: block;
+    width: 240px;
+}
+
+#list {
+    width: 270px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: #006aa7;
+    color: #9dc7df;
+    padding: 10px;
+    font-size: 14px;
+    //float: right;
+}
+
+#list:hover {
+    background-color: rgba(25, 27, 25, 0.5);
+}
+
 .add-list {
   background: #E2E4E6;
 	height: 100%;
@@ -218,3 +241,4 @@ main {
   .second {
     margin-left: 8px;
   }
+
